@@ -43,9 +43,11 @@ public class ReceiverBufferedModule extends Module implements ICallbackModule {
 
         String protocolModuleName = settings.getOrDefault("protocol-module-name", "Protocol");
         protocolModuleConnection = new ModuleConnectionSafe<>(service, protocolModuleName);
+        protocolModuleConnection.refreshConnection();
 
         String packetPoolModuleName = settings.getOrDefault("packetpool-module-name", "PacketPool");
         packetPoolModuleConnection = new ModuleConnectionSafe<>(service, packetPoolModuleName);
+        packetPoolModuleConnection.refreshConnection();
 
         int socketTimeout = Integer.parseInt(
                 settings.getOrDefault("socket-timeout", "1500"));
