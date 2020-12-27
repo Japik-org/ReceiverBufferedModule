@@ -23,26 +23,33 @@
         <dependency>
             <groupId>com.pro100kryto.server.utils</groupId>
             <artifactId>Datagram</artifactId>
-            <version>1.0</version>
             <scope>provided</scope>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>com.pro100kryto.server.modules</groupId>
             <artifactId>PacketPoolModule</artifactId>
-            <version>[1.0.0, 1.1.0)</version>
             <scope>provided</scope>
+            <version>[1.0.0, 1.1.0)</version>
         </dependency>
         <dependency>
             <groupId>com.pro100kryto.server.modules</groupId>
             <artifactId>ProtocolModule-connection</artifactId>
-            <version>[1.0.0, 1.1.0)</version>
             <scope>provided</scope>
+            <version>[1.0.0, 1.1.0)</version>
         </dependency>
         <dependency>
             <groupId>com.sun.istack</groupId>
             <artifactId>istack-commons-runtime</artifactId>
-            <version>4.0.0</version>
             <scope>provided</scope>
+            <version>4.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pro100kryto.server.modules</groupId>
+            <artifactId>ReceiverBufferedModule-connection</artifactId>
+            <scope>provided</scope>
+            <version>[1.0.0, 1.1.0)</version>
         </dependency>
     </dependencies>
 </project>
