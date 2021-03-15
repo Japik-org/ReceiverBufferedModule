@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: modules/receiverbuffered-module-connection.jar
+  modules/protocol-module-connection.jar
+  module/packetpool-module-connection.jar
+  utils/datagram.jar
+  lib/annotations-13.0.jar
